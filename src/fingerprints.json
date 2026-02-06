@@ -1,8 +1,8 @@
 {
-  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-  "platform": "Win32",
-  "vendor": "Google Inc. (NVIDIA)",
-  "renderer": "ANGLE (NVIDIA, NVIDIA Quadro K1100M (0x00000FF6) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "userAgent": "",
+  "platform": "",
+  "vendor": "",
+  "renderer": "",
   "screen": { "width": 1920, "height": 1080 },
   "fonts": ["Arial", "Arial Black", "Arial Narrow", "Calibri", "Cambria", "Comic Sans MS", "Courier New", "Georgia", "Helvetica", "Impact", "Microsoft Sans Serif", "Segoe UI", "Tahoma", "Times New Roman", "Verdana"]
 }
