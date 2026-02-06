@@ -1,0 +1,17 @@
+services:
+  epicmaster:
+    build: .
+    container_name: epicmaster
+    restart: unless-stopped
+    network_mode: bridge
+    ports:
+      - "6080:6080"
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src  # 方便开发调试，生产环境可去掉
+    env_file:
+      - .env
+    shm_size: '2gb' # 浏览器防崩溃必须
+    environment:
+      - VNC_PORT=6080
+      - DISPLAY=:1

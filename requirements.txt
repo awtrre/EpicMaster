@@ -1,0 +1,6 @@
+DrissionPage>=4.0
+requests
+python-dotenv
+apscheduler
+loguru
+Pillow
